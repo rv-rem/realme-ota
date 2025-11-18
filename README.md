@@ -1,7 +1,7 @@
 # Realme OTA Downloader
-![License](https://img.shields.io/github/license/R0rt1z2/realme-ota)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/R0rt1z2/realme-ota?include_prereleases)
-![GitHub Issues](https://img.shields.io/github/issues-raw/R0rt1z2/realme-ota?color=red)
+![License](https://img.shields.io/github/license/rv-rem/realme-ota)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/rv-rem/realme-ota?include_prereleases)
+![GitHub Issues](https://img.shields.io/github/issues-raw/rv-rem/realme-ota?color=red)
 
 ## Requirements
 * Python 3.9 (or newer).
@@ -11,13 +11,13 @@
 Required [Windows Terminal](https://github.com/microsoft/terminal) or [PowerShell](https://github.com/PowerShell/PowerShell).
 ```powershell
 # (Requires privileges - start Terminal/PowerShell as administrator)
-Invoke-WebRequest https://raw.githubusercontent.com/R0rt1z2/realme-ota/master/Install.ps1 | Invoke-Expression
+Invoke-WebRequest https://raw.githubusercontent.com/rv-rem/realme-ota/master/Install.ps1 | Invoke-Expression
 ```
 
 ### Linux
 ```bash
 sudo apt install python3-pip
-pip3 install --upgrade git+https://github.com/R0rt1z2/realme-ota
+pip3 install --upgrade git+https://github.com/rv-rem/realme-ota
 ```
 
 ## Usage
@@ -67,3 +67,4 @@ output options:
 
 ## License
 * This tool is licensed under the GNU (v3) General Public License. See `LICENSE` for more details.
+
